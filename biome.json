@@ -37,10 +37,11 @@
       "!.husky",
       "!node_modules",
       "!.next",
-      "!dist",
+      "!**/dist",
       "!out",
       "!src/components/ui",
-      "!src/components/calendar"
+      "!src/components/calendar",
+      "!packages/database/drizzle"
     ]
   },
   "formatter": {
@@ -109,6 +110,9 @@
     }
   },
   "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
     "formatter": {
       "jsxQuoteStyle": "double",
       "quoteProperties": "asNeeded",
