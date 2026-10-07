@@ -1,5 +1,7 @@
 # Next.js Admin Template with TypeScript & Shadcn UI
 
+> Social publishing platform work is in progress. See the [architecture](docs/social-platform-architecture.md), [foundation setup](docs/foundation-development.md), and [implementation status](docs/implementation-status.md). The existing dashboard screens are still template examples.
+
 **Studio Admin** - Includes multiple dashboards, authentication layouts, customizable theme presets, and more.
 
 <img src="https://github.com/arhamkhnz/next-shadcn-admin-dashboard/blob/main/media/dashboard.png?version=5" alt="Dashboard Screenshot">
